@@ -20,4 +20,4 @@ No Serviço AWS Lambda foi configurado a função com base na política criada, 
 
 ![Diagrama Infraestrutura em Nuvem após as configurações da automação](img/InfractrutureEC2-automized.jpeg)
 
-## Após a implementação dos procedimentos, foi possível resolver o desafio proposto. 
+Após a implementação dos procedimentos, foi possível resolver o desafio proposto. 

@@ -5,7 +5,7 @@ Estudo de caso (baseado em um cenário real): A empresa "X" possui uma instânci
 * **Dias de funcionamento:** Segunda à Sexta-feira
 * **Horário:** 07:00 às 17:00
 
-<img="/img/InfractrutureEC2-atual.jpeg" alt="Diagrama Infraestrutura em Nuvem atual" height="300px">
+<img="./img/InfractrutureEC2-atual.jpeg" alt="Diagrama Infraestrutura em Nuvem atual" height="300px">
 
 ## Existem diversas maneiras para solicionar este problema, optei pela utilização dos serviços AWS:
 
@@ -18,6 +18,6 @@ Estudo de caso (baseado em um cenário real): A empresa "X" possui uma instânci
 Primeiramente, foi configurado no serviço IAM(Identity and Access Management) a política e regra para o serviço AWS lambda ter acesso a EC2.
 No Serviço AWS Lambda foi configurado a função com base na política criada, o código desenvolvido na linguagem Python. Por fim foi criado no serviço EventBrigde um cronôgrama, onde fará o acionamento da função Lambda Start/Stop.
 
-<img="/img/InfractrutureEC2-automized.jpeg" alt="Diagrama Infraestrutura em Nuvem após as configurações da automação" height="300px">
+<img="./img/InfractrutureEC2-automized.jpeg" alt="Diagrama Infraestrutura em Nuvem após as configurações da automação" height="300px">
 
 ## Após a implementação dos procedimentos, foi possível resolver o desafio proposto. 

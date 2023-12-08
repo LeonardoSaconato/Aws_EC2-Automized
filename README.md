@@ -11,7 +11,7 @@ Estudo de caso (baseado em um cenário real): A empresa "X" possui uma instânci
 
  * [IAM](https://aws.amazon.com/pt/iam/)
  * [Lambda](https://aws.amazon.com/pt/lambda/?nc2=type_a) 
- * [CloudEventBrigde](https://aws.amazon.com/pt/eventbridge/)
+ * [CloudEventBridge](https://aws.amazon.com/pt/eventbridge/)
 
 ## Implementação 
 
